@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+.btn {
+    @apply text-white py-[5px] px-[1rem] bg-forest-green rounded-[10rem]
+}
+
+/* .btn_2 {
+    @apply
+} */
+
+@layer base{
+    @font-face {
+        font-display: swap;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    }
+    
+    @font-face {
+        font-display: swap;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        src: url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    
+    }
+    
+    @font-face {
+        font-display: swap;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../fonts/SFPRODISPLAYSEMIBOLD.OTF') format('opentype');
+    
+    }
+    
+    @font-face {
+        font-display: swap;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        src: url('../fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    
+    }
+}
+
+body{
+    background: #070606;
+	line-height: normal;
+    
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'SF Pro Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'SF Pro Medium';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'SF Pro Semibold';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/SFPRODISPLAYSEMIBOLD.OTF') format('opentype');
+
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'SF Pro Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+
+}
